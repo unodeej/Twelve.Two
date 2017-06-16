@@ -1,0 +1,497 @@
+[14:46:40] [main/DEBUG] [FML/]: Injecting tracing printstreams for STDOUT/STDERR.
+[14:46:40] [main/INFO] [FML/]: Forge Mod Loader version 14.21.0.2322 for Minecraft 1.12 loading
+[14:46:40] [main/INFO] [FML/]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.8.0_91, running on Windows 10:amd64:10.0, installed at C:\Program Files\Java\jre1.8.0_91
+[14:46:40] [main/DEBUG] [FML/]: Java classpath at launch is forge-1.12-14.21.0.2322-universal.jar
+[14:46:40] [main/DEBUG] [FML/]: Java library path at launch is C:\Program Files\Java\jre1.8.0_91\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Razer Chroma SDK\bin;C:\Program Files\Razer Chroma SDK\bin;C:\Program Files\Java\jre1.8.0_91\bin;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Skype\Phone\;C:\Program Files (x86)\GtkSharp\2.12\bin;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\WINDOWS\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps;%SystemRoot%\system32;%SystemRoot%;%SystemRoot%\System32\Wbem;%SYSTEMROOT%\System32\WindowsPowerShell\v1.0\;C:\Users\unode\AppData\Local\Microsoft\WindowsApps;;.
+[14:46:40] [main/DEBUG] [FML/]: Enabling runtime deobfuscation
+[14:46:40] [main/DEBUG] [FML/]: Instantiating coremod class FMLCorePlugin
+[14:46:40] [main/DEBUG] [FML/]: Added access transformer class net.minecraftforge.fml.common.asm.transformers.AccessTransformer to enqueued access transformers
+[14:46:40] [main/DEBUG] [FML/]: Enqueued coremod FMLCorePlugin
+[14:46:40] [main/DEBUG] [FML/]: Instantiating coremod class FMLForgePlugin
+[14:46:40] [main/DEBUG] [FML/]: Enqueued coremod FMLForgePlugin
+[14:46:40] [main/DEBUG] [FML/]: All fundamental core mods are successfully located
+[14:46:40] [main/DEBUG] [FML/]: Attempting to load commandline specified mods, relative to C:\Users\unode\Desktop\Server\.
+[14:46:40] [main/DEBUG] [FML/]: Adding net.minecraftforge:MercuriusUpdater (C:\Users\unode\Desktop\Server\libraries\net\minecraftforge\MercuriusUpdater\1.12\MercuriusUpdater-1.12.jar) to the mod list
+[14:46:40] [main/DEBUG] [FML/]: Discovering coremods
+[14:46:40] [main/DEBUG] [FML/]: Examining for coremod candidacy forgeessentials-1.10.2-10.2.1360-server.jar
+[14:46:40] [main/INFO] [FML/]: Loading tweaker com.forgeessentials.core.preloader.FELaunchHandler from forgeessentials-1.10.2-10.2.1360-server.jar
+[14:46:40] [main/DEBUG] [FML/]: Examining for coremod candidacy MercuriusUpdater-1.12.jar
+[14:46:40] [main/DEBUG] [FML/]: Not found coremod data in MercuriusUpdater-1.12.jar
+[14:46:40] [main/DEBUG] [FML/]: Examining for coremod candidacy spongeforge-1.12-2331-7.0.0-BETA-2391.jar
+[14:46:40] [main/INFO] [FML/]: Loading tweaker org.spongepowered.asm.launch.MixinTweaker from spongeforge-1.12-2331-7.0.0-BETA-2391.jar
+[14:46:40] [main/INFO] [LaunchWrapper/]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[14:46:40] [main/INFO] [LaunchWrapper/]: Loading tweak class name com.forgeessentials.core.preloader.FELaunchHandler
+[14:46:40] [main/INFO] [LaunchWrapper/]: Loading tweak class name org.spongepowered.asm.launch.MixinTweaker
+[14:46:40] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.6.10 Source=file:/C:/Users/unode/Desktop/Server/mods/forgeessentials-1.10.2-10.2.1360-server.jar Env=SERVER
+[14:46:41] [main/DEBUG] [mixin/]: Adding new mixin transformer proxy #1
+[14:46:41] [main/DEBUG] [mixin/]: Initialising Mixin Platform Manager
+[14:46:41] [main/DEBUG] [mixin/]: Mixin platform: primary container is file:/C:/Users/unode/Desktop/Server/mods/forgeessentials-1.10.2-10.2.1360-server.jar
+[14:46:41] [main/DEBUG] [mixin/]: Adding mixin platform agents for container file:/C:/Users/unode/Desktop/Server/mods/forgeessentials-1.10.2-10.2.1360-server.jar
+[14:46:41] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentFML for file:/C:/Users/unode/Desktop/Server/mods/forgeessentials-1.10.2-10.2.1360-server.jar
+[14:46:41] [main/DEBUG] [mixin/]: ForceLoadAsMod was specified for forgeessentials-1.10.2-10.2.1360-server.jar, attempting force-load
+[14:46:41] [main/DEBUG] [mixin/]: Adding forgeessentials-1.10.2-10.2.1360-server.jar to reparseable coremod collection
+[14:46:41] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for file:/C:/Users/unode/Desktop/Server/mods/forgeessentials-1.10.2-10.2.1360-server.jar
+[14:46:41] [main/DEBUG] [mixin/]: Scanning file:/C:/Users/unode/Desktop/Server/forge-1.12-14.21.0.2322-universal.jar for mixin tweaker
+[14:46:41] [main/DEBUG] [mixin/]: Scanning file:/C:/Users/unode/Desktop/Server/mods/spongeforge-1.12-2331-7.0.0-BETA-2391.jar for mixin tweaker
+[14:46:41] [main/DEBUG] [mixin/]: file:/C:/Users/unode/Desktop/Server/mods/spongeforge-1.12-2331-7.0.0-BETA-2391.jar contains a mixin tweaker, adding agents
+[14:46:41] [main/DEBUG] [mixin/]: Adding mixin platform agents for container file:/C:/Users/unode/Desktop/Server/mods/spongeforge-1.12-2331-7.0.0-BETA-2391.jar
+[14:46:41] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentFML for file:/C:/Users/unode/Desktop/Server/mods/spongeforge-1.12-2331-7.0.0-BETA-2391.jar
+[14:46:41] [main/DEBUG] [mixin/]: spongeforge-1.12-2331-7.0.0-BETA-2391.jar has core plugin org.spongepowered.mod.SpongeCoremod. Injecting it into FML for co-initialisation:
+[14:46:41] [main/DEBUG] [FML/]: Instantiating coremod class SpongeCoremod
+[14:46:41] [main/DEBUG] [FML/]: The coremod org.spongepowered.mod.SpongeCoremod requested minecraft version 1.12 and minecraft is 1.12. It will be loaded.
+[14:46:41] [main/INFO] [mixin/]: Compatibility level set to JAVA_8
+[14:46:41] [main/INFO] [mixin/]: Adding new token provider org.spongepowered.mod.SpongeCoremod$TokenProvider to MixinEnvironment[DEFAULT]
+[14:46:41] [main/INFO] [mixin/]: Adding new token provider org.spongepowered.mod.SpongeCoremod$TokenProvider to MixinEnvironment[PREINIT]
+[14:46:41] [main/INFO] [mixin/]: Adding new token provider org.spongepowered.mod.SpongeCoremod$TokenProvider to MixinEnvironment[INIT]
+[14:46:41] [main/DEBUG] [FML/]: Added access transformer class org.spongepowered.mod.asm.transformer.SpongeAccessTransformer to enqueued access transformers
+[14:46:41] [main/DEBUG] [FML/]: Enqueued coremod SpongeCoremod
+[14:46:41] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for file:/C:/Users/unode/Desktop/Server/mods/spongeforge-1.12-2331-7.0.0-BETA-2391.jar
+[14:46:41] [main/INFO] [LaunchWrapper/]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[14:46:41] [main/INFO] [LaunchWrapper/]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[14:46:41] [main/INFO] [LaunchWrapper/]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[14:46:41] [main/INFO] [LaunchWrapper/]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[14:46:41] [main/DEBUG] [FML/]: Injecting coremod FMLCorePlugin {net.minecraftforge.fml.relauncher.FMLCorePlugin} class transformers
+[14:46:41] [main/TRACE] [FML/]: Registering transformer net.minecraftforge.fml.common.asm.transformers.BlamingTransformer
+[14:46:41] [main/DEBUG] [mixin/]: Preparing mixins for MixinEnvironment[PREINIT]
+[14:46:41] [main/DEBUG] [mixin/]: Selecting config mixins.forge.preinit.json
+[14:46:41] [main/DEBUG] [mixin/]: Preparing mixins.forge.preinit.json (7)
+[14:46:41] [main/DEBUG] [mixin/]: Rebuilding transformer delegation list:
+[14:46:41] [main/DEBUG] [mixin/]:   Adding:    net.minecraftforge.fml.common.asm.transformers.PatchingTransformer
+[14:46:41] [main/DEBUG] [mixin/]:   Excluding: org.spongepowered.asm.mixin.transformer.MixinTransformer$Proxy
+[14:46:41] [main/DEBUG] [mixin/]: Transformer delegation list created with 1 entries
+[14:46:41] [main/TRACE] [mixin/]: Added class metadata for net/minecraftforge/common/UsernameCache to metadata cache
+[14:46:41] [main/TRACE] [mixin/]: Added class metadata for net/minecraftforge/fml/common/LoadController to metadata cache
+[14:46:41] [main/TRACE] [mixin/]: Added class metadata for net/minecraftforge/fml/common/Loader to metadata cache
+[14:46:41] [main/TRACE] [mixin/]: Added class metadata for net/minecraftforge/fml/common/ModContainer to metadata cache
+[14:46:41] [main/TRACE] [mixin/]: Added class metadata for net/minecraftforge/fml/common/eventhandler/ASMEventHandler to metadata cache
+[14:46:41] [main/TRACE] [mixin/]: Added class metadata for net/minecraftforge/fml/common/eventhandler/Event to metadata cache
+[14:46:41] [main/TRACE] [mixin/]: Added class metadata for net/minecraftforge/fml/common/registry/GameRegistry to metadata cache
+[14:46:41] [main/TRACE] [mixin/]: Added class metadata for org/spongepowered/api/plugin/PluginContainer to metadata cache
+[14:46:41] [main/TRACE] [FML/]: Registering transformer net.minecraftforge.fml.common.asm.transformers.SideTransformer
+[14:46:41] [main/TRACE] [FML/]: Registering transformer net.minecraftforge.fml.common.asm.transformers.EventSubscriptionTransformer
+[14:46:41] [main/TRACE] [FML/]: Registering transformer net.minecraftforge.fml.common.asm.transformers.EventSubscriberTransformer
+[14:46:41] [main/DEBUG] [mixin/]: Mixing fml.common.eventhandler.MixinEvent from mixins.forge.preinit.json into net.minecraftforge.fml.common.eventhandler.Event
+[14:46:41] [main/TRACE] [mixin/]: Added class metadata for org/spongepowered/api/event/Cancellable to metadata cache
+[14:46:41] [main/TRACE] [mixin/]: Added class metadata for org/spongepowered/mod/interfaces/IMixinEvent to metadata cache
+[14:46:41] [main/TRACE] [mixin/]: Added class metadata for org/spongepowered/common/SpongeImpl to metadata cache
+[14:46:41] [main/TRACE] [mixin/]: Added class metadata for org/spongepowered/api/event/cause/NamedCause to metadata cache
+[14:46:41] [main/TRACE] [mixin/]: Added class metadata for org/spongepowered/api/event/cause/Cause to metadata cache
+[14:46:41] [main/DEBUG] [FML/]: Injection complete
+[14:46:41] [main/DEBUG] [FML/]: Running coremod plugin for FMLCorePlugin {net.minecraftforge.fml.relauncher.FMLCorePlugin}
+[14:46:41] [main/DEBUG] [FML/]: Running coremod plugin FMLCorePlugin
+[14:46:43] [main/DEBUG] [FML/]: Read 989 binary patches
+[14:46:43] [main/DEBUG] [FML/]: Loading deobfuscation resource /deobfuscation_data-1.12.lzma with 36066 records
+[14:46:44] [main/INFO] [FML/]: Found valid fingerprint for Minecraft Forge. Certificate fingerprint e3c3d50c7c986df74c645c0ac54639741c90a557
+[14:46:44] [main/DEBUG] [FML/]: Coremod plugin class FMLCorePlugin run successfully
+[14:46:44] [main/INFO] [LaunchWrapper/]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[14:46:44] [main/DEBUG] [FML/]: Injecting coremod FMLForgePlugin {net.minecraftforge.classloading.FMLForgePlugin} class transformers
+[14:46:44] [main/DEBUG] [FML/]: Injection complete
+[14:46:44] [main/DEBUG] [FML/]: Running coremod plugin for FMLForgePlugin {net.minecraftforge.classloading.FMLForgePlugin}
+[14:46:44] [main/DEBUG] [FML/]: Running coremod plugin FMLForgePlugin
+[14:46:44] [main/DEBUG] [FML/]: Coremod plugin class FMLForgePlugin run successfully
+[14:46:44] [main/INFO] [LaunchWrapper/]: Calling tweak class com.forgeessentials.core.preloader.FELaunchHandler
+[14:46:44] [main/WARN] [mixin/]: MixinEnvironment::setCompatibilityLevel is deprecated and will be removed. Set level via config instead!
+[14:46:44] [main/INFO] [ForgeEssentials/]: Added library C:\Users\unode\Desktop\Server\ForgeEssentials\lib\antlr-2.7.7.jar to classpath
+[14:46:44] [main/INFO] [ForgeEssentials/]: Added library C:\Users\unode\Desktop\Server\ForgeEssentials\lib\cdi-api-1.1.jar to classpath
+[14:46:44] [main/INFO] [ForgeEssentials/]: Added library C:\Users\unode\Desktop\Server\ForgeEssentials\lib\classmate-1.3.0.jar to classpath
+[14:46:44] [main/INFO] [ForgeEssentials/]: Added library C:\Users\unode\Desktop\Server\ForgeEssentials\lib\dom4j-1.6.1.jar to classpath
+[14:46:44] [main/INFO] [ForgeEssentials/]: Added library C:\Users\unode\Desktop\Server\ForgeEssentials\lib\el-api-2.2.jar to classpath
+[14:46:44] [main/INFO] [ForgeEssentials/]: Added library C:\Users\unode\Desktop\Server\ForgeEssentials\lib\geronimo-jta_1.1_spec-1.1.1.jar to classpath
+[14:46:44] [main/INFO] [ForgeEssentials/]: Added library C:\Users\unode\Desktop\Server\ForgeEssentials\lib\h2-1.3.175.jar to classpath
+[14:46:44] [main/INFO] [ForgeEssentials/]: Added library C:\Users\unode\Desktop\Server\ForgeEssentials\lib\hibernate-commons-annotations-5.0.1.Final.jar to classpath
+[14:46:44] [main/INFO] [ForgeEssentials/]: Added library C:\Users\unode\Desktop\Server\ForgeEssentials\lib\hibernate-core-5.2.2.Final.jar to classpath
+[14:46:44] [main/INFO] [ForgeEssentials/]: Added library C:\Users\unode\Desktop\Server\ForgeEssentials\lib\hibernate-jpa-2.1-api-1.0.0.Final.jar to classpath
+[14:46:44] [main/INFO] [ForgeEssentials/]: Added library C:\Users\unode\Desktop\Server\ForgeEssentials\lib\jandex-2.0.0.Final.jar to classpath
+[14:46:44] [main/INFO] [ForgeEssentials/]: Added library C:\Users\unode\Desktop\Server\ForgeEssentials\lib\javassist-3.20.0-GA.jar to classpath
+[14:46:44] [main/INFO] [ForgeEssentials/]: Added library C:\Users\unode\Desktop\Server\ForgeEssentials\lib\javax.inject-1.jar to classpath
+[14:46:44] [main/INFO] [ForgeEssentials/]: Added library C:\Users\unode\Desktop\Server\ForgeEssentials\lib\jboss-interceptors-api_1.1_spec-1.0.0.Beta1.jar to classpath
+[14:46:44] [main/INFO] [ForgeEssentials/]: Added library C:\Users\unode\Desktop\Server\ForgeEssentials\lib\jboss-logging-3.3.0.Final.jar to classpath
+[14:46:44] [main/INFO] [ForgeEssentials/]: Added library C:\Users\unode\Desktop\Server\ForgeEssentials\lib\jsr250-api-1.0.jar to classpath
+[14:46:44] [main/INFO] [ForgeEssentials/]: Added library C:\Users\unode\Desktop\Server\ForgeEssentials\lib\mysql-connector-java-5.1.22.jar to classpath
+[14:46:44] [main/INFO] [ForgeEssentials/]: Added library C:\Users\unode\Desktop\Server\ForgeEssentials\lib\pircbotx-2.0.1.jar to classpath
+[14:46:44] [main/INFO] [ForgeEssentials/]: Added library C:\Users\unode\Desktop\Server\ForgeEssentials\lib\slf4j-api-1.7.5.jar to classpath
+[14:46:44] [main/INFO] [ASM_ClassInjector/]: Scanning injector class com.forgeessentials.core.preloader.injections.MixinEntity
+[14:46:44] [main/INFO] [ASM_ClassInjector/]: Found injector method attackEntityFrom_event => func_70097_a(Lnet/minecraft/util/DamageSource;F)Z
+[14:46:44] [main/INFO] [ASM_ClassInjector/]: Scanning injector class com.forgeessentials.core.preloader.injections.MixinBlock
+[14:46:44] [main/INFO] [ASM_ClassInjector/]: Found injector method onFallenUpon_event => func_149746_a(Lnet/minecraft/world/World;Lnet/minecraft/util/BlockPos;Lnet/minecraft/entity/Entity;F)V
+[14:46:44] [main/INFO] [LaunchWrapper/]: Calling tweak class org.spongepowered.asm.launch.MixinTweaker
+[14:46:44] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentFML:file:/C:/Users/unode/Desktop/Server/mods/forgeessentials-1.10.2-10.2.1360-server.jar]
+[14:46:44] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:file:/C:/Users/unode/Desktop/Server/mods/forgeessentials-1.10.2-10.2.1360-server.jar]
+[14:46:44] [main/DEBUG] [mixin/]: Setting mixin compatibility level: JAVA_8
+[14:46:44] [main/WARN] [mixin/]: MixinEnvironment::setCompatibilityLevel is deprecated and will be removed. Set level via config instead!
+[14:46:44] [main/DEBUG] [mixin/]: Registering mixin config: mixins.forgeessentials.json
+[14:46:44] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentFML:file:/C:/Users/unode/Desktop/Server/mods/spongeforge-1.12-2331-7.0.0-BETA-2391.jar]
+[14:46:44] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:file:/C:/Users/unode/Desktop/Server/mods/spongeforge-1.12-2331-7.0.0-BETA-2391.jar]
+[14:46:44] [main/DEBUG] [mixin/]: Processing launch tasks for PlatformAgent[MixinPlatformAgentFML:file:/C:/Users/unode/Desktop/Server/mods/forgeessentials-1.10.2-10.2.1360-server.jar]
+[14:46:44] [main/DEBUG] [mixin/]: Creating FML remapper adapter: org.spongepowered.asm.bridge.RemapperAdapterFML
+[14:46:44] [main/INFO] [mixin/]: Initialised Mixin FML Remapper Adapter with net.minecraftforge.fml.common.asm.transformers.deobf.FMLDeobfuscatingRemapper@35e478f
+[14:46:44] [main/DEBUG] [mixin/]: Processing launch tasks for PlatformAgent[MixinPlatformAgentDefault:file:/C:/Users/unode/Desktop/Server/mods/forgeessentials-1.10.2-10.2.1360-server.jar]
+[14:46:44] [main/DEBUG] [mixin/]: Scanning file:/C:/Users/unode/Desktop/Server/forge-1.12-14.21.0.2322-universal.jar for mixin tweaker
+[14:46:44] [main/DEBUG] [mixin/]: Scanning asmgen:/ for mixin tweaker
+[14:46:44] [main/DEBUG] [mixin/]: Scanning file:/C:/Users/unode/Desktop/Server/ForgeEssentials/lib/antlr-2.7.7.jar for mixin tweaker
+[14:46:44] [main/DEBUG] [mixin/]: Scanning file:/C:/Users/unode/Desktop/Server/ForgeEssentials/lib/cdi-api-1.1.jar for mixin tweaker
+[14:46:44] [main/DEBUG] [mixin/]: Scanning file:/C:/Users/unode/Desktop/Server/ForgeEssentials/lib/classmate-1.3.0.jar for mixin tweaker
+[14:46:44] [main/DEBUG] [mixin/]: Scanning file:/C:/Users/unode/Desktop/Server/ForgeEssentials/lib/dom4j-1.6.1.jar for mixin tweaker
+[14:46:44] [main/DEBUG] [mixin/]: Scanning file:/C:/Users/unode/Desktop/Server/ForgeEssentials/lib/el-api-2.2.jar for mixin tweaker
+[14:46:44] [main/DEBUG] [mixin/]: Scanning file:/C:/Users/unode/Desktop/Server/ForgeEssentials/lib/geronimo-jta_1.1_spec-1.1.1.jar for mixin tweaker
+[14:46:44] [main/DEBUG] [mixin/]: Scanning file:/C:/Users/unode/Desktop/Server/ForgeEssentials/lib/h2-1.3.175.jar for mixin tweaker
+[14:46:44] [main/DEBUG] [mixin/]: Scanning file:/C:/Users/unode/Desktop/Server/ForgeEssentials/lib/hibernate-commons-annotations-5.0.1.Final.jar for mixin tweaker
+[14:46:44] [main/DEBUG] [mixin/]: Scanning file:/C:/Users/unode/Desktop/Server/ForgeEssentials/lib/hibernate-core-5.2.2.Final.jar for mixin tweaker
+[14:46:44] [main/DEBUG] [mixin/]: Scanning file:/C:/Users/unode/Desktop/Server/ForgeEssentials/lib/hibernate-jpa-2.1-api-1.0.0.Final.jar for mixin tweaker
+[14:46:44] [main/DEBUG] [mixin/]: Scanning file:/C:/Users/unode/Desktop/Server/ForgeEssentials/lib/jandex-2.0.0.Final.jar for mixin tweaker
+[14:46:44] [main/DEBUG] [mixin/]: Scanning file:/C:/Users/unode/Desktop/Server/ForgeEssentials/lib/javassist-3.20.0-GA.jar for mixin tweaker
+[14:46:44] [main/DEBUG] [mixin/]: Scanning file:/C:/Users/unode/Desktop/Server/ForgeEssentials/lib/javax.inject-1.jar for mixin tweaker
+[14:46:44] [main/DEBUG] [mixin/]: Scanning file:/C:/Users/unode/Desktop/Server/ForgeEssentials/lib/jboss-interceptors-api_1.1_spec-1.0.0.Beta1.jar for mixin tweaker
+[14:46:44] [main/DEBUG] [mixin/]: Scanning file:/C:/Users/unode/Desktop/Server/ForgeEssentials/lib/jboss-logging-3.3.0.Final.jar for mixin tweaker
+[14:46:44] [main/DEBUG] [mixin/]: Scanning file:/C:/Users/unode/Desktop/Server/ForgeEssentials/lib/jsr250-api-1.0.jar for mixin tweaker
+[14:46:44] [main/DEBUG] [mixin/]: Scanning file:/C:/Users/unode/Desktop/Server/ForgeEssentials/lib/mysql-connector-java-5.1.22.jar for mixin tweaker
+[14:46:44] [main/DEBUG] [mixin/]: Scanning file:/C:/Users/unode/Desktop/Server/ForgeEssentials/lib/pircbotx-2.0.1.jar for mixin tweaker
+[14:46:44] [main/DEBUG] [mixin/]: Scanning file:/C:/Users/unode/Desktop/Server/ForgeEssentials/lib/slf4j-api-1.7.5.jar for mixin tweaker
+[14:46:44] [main/DEBUG] [mixin/]: injectIntoClassLoader running with 2 agents
+[14:46:44] [main/DEBUG] [mixin/]: Processing injectIntoClassLoader() for PlatformAgent[MixinPlatformAgentFML:file:/C:/Users/unode/Desktop/Server/mods/forgeessentials-1.10.2-10.2.1360-server.jar]
+[14:46:44] [main/DEBUG] [mixin/]: Processing injectIntoClassLoader() for PlatformAgent[MixinPlatformAgentDefault:file:/C:/Users/unode/Desktop/Server/mods/forgeessentials-1.10.2-10.2.1360-server.jar]
+[14:46:44] [main/DEBUG] [mixin/]: Processing injectIntoClassLoader() for PlatformAgent[MixinPlatformAgentFML:file:/C:/Users/unode/Desktop/Server/mods/spongeforge-1.12-2331-7.0.0-BETA-2391.jar]
+[14:46:44] [main/DEBUG] [mixin/]: FML agent is co-initialising coremod instance SpongeCoremod {[]} for file:/C:/Users/unode/Desktop/Server/mods/spongeforge-1.12-2331-7.0.0-BETA-2391.jar
+[14:46:44] [main/DEBUG] [FML/]: Injecting coremod SpongeCoremod {org.spongepowered.mod.SpongeCoremod} class transformers
+[14:46:44] [main/TRACE] [FML/]: Registering transformer org.spongepowered.common.launch.transformer.SpongeSuperclassTransformer
+[14:46:44] [main/DEBUG] [FML/]: Injection complete
+[14:46:44] [main/DEBUG] [FML/]: Running coremod plugin for SpongeCoremod {org.spongepowered.mod.SpongeCoremod}
+[14:46:44] [main/DEBUG] [FML/]: Running coremod plugin SpongeCoremod
+[14:46:44] [main/DEBUG] [FML/]: Coremod plugin class SpongeCoremod run successfully
+[14:46:44] [main/DEBUG] [mixin/]: Processing injectIntoClassLoader() for PlatformAgent[MixinPlatformAgentDefault:file:/C:/Users/unode/Desktop/Server/mods/spongeforge-1.12-2331-7.0.0-BETA-2391.jar]
+[14:46:44] [main/INFO] [LaunchWrapper/]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[14:46:44] [main/DEBUG] [FML/]: Loaded 203 rules from AccessTransformer config file forge_at.cfg
+[14:46:44] [main/DEBUG] [FML/]: Loaded 409 rules from AccessTransformer config file META-INF/common_at.cfg
+[14:46:45] [main/DEBUG] [FML/]: Loaded 4 rules from AccessTransformer mod jar file C:\Users\unode\Desktop\Server\mods\forgeessentials-1.10.2-10.2.1360-server.jar!META-INF/forgeessentials_at.cfg
+
+[14:46:45] [main/DEBUG] [FML/]: Loaded 409 rules from AccessTransformer mod jar file C:\Users\unode\Desktop\Server\mods\spongeforge-1.12-2331-7.0.0-BETA-2391.jar!META-INF/common_at.cfg
+
+[14:46:45] [main/DEBUG] [FML/]: Validating minecraft
+[14:46:45] [main/DEBUG] [mixin/]: Mixing fml.common.MixinLoader from mixins.forge.preinit.json into net.minecraftforge.fml.common.Loader
+[14:46:45] [main/DEBUG] [mixin/]: Rebuilding transformer delegation list:
+[14:46:45] [main/DEBUG] [mixin/]:   Adding:    net.minecraftforge.fml.common.asm.transformers.PatchingTransformer
+[14:46:45] [main/DEBUG] [mixin/]:   Excluding: org.spongepowered.asm.mixin.transformer.MixinTransformer$Proxy
+[14:46:45] [main/DEBUG] [mixin/]:   Adding:    $wrapper.net.minecraftforge.fml.common.asm.transformers.BlamingTransformer
+[14:46:45] [main/DEBUG] [mixin/]:   Adding:    $wrapper.net.minecraftforge.fml.common.asm.transformers.SideTransformer
+[14:46:45] [main/DEBUG] [mixin/]:   Excluding: $wrapper.net.minecraftforge.fml.common.asm.transformers.EventSubscriptionTransformer
+[14:46:45] [main/DEBUG] [mixin/]:   Adding:    $wrapper.net.minecraftforge.fml.common.asm.transformers.EventSubscriberTransformer
+[14:46:45] [main/DEBUG] [mixin/]:   Adding:    com.forgeessentials.core.preloader.EventTransformer
+[14:46:45] [main/DEBUG] [mixin/]:   Adding:    $wrapper.org.spongepowered.common.launch.transformer.SpongeSuperclassTransformer
+[14:46:45] [main/DEBUG] [mixin/]:   Adding:    net.minecraftforge.fml.common.asm.transformers.DeobfuscationTransformer
+[14:46:45] [main/DEBUG] [mixin/]:   Adding:    net.minecraftforge.fml.common.asm.transformers.AccessTransformer
+[14:46:45] [main/DEBUG] [mixin/]:   Adding:    org.spongepowered.mod.asm.transformer.SpongeAccessTransformer
+[14:46:45] [main/DEBUG] [mixin/]:   Adding:    net.minecraftforge.fml.common.asm.transformers.ModAccessTransformer
+[14:46:45] [main/DEBUG] [mixin/]:   Adding:    net.minecraftforge.fml.common.asm.transformers.ItemStackTransformer
+[14:46:45] [main/DEBUG] [mixin/]: Transformer delegation list created with 11 entries
+[14:46:45] [main/DEBUG] [mixin/]: Found name transformer: net.minecraftforge.fml.common.asm.transformers.DeobfuscationTransformer
+[14:46:45] [main/TRACE] [mixin/]: Added class metadata for net/minecraftforge/fml/common/discovery/ModDiscoverer to metadata cache
+[14:46:45] [main/TRACE] [mixin/]: Added class metadata for java/io/File to metadata cache
+[14:46:45] [main/TRACE] [mixin/]: Added class metadata for net/minecraftforge/fml/common/FMLLog to metadata cache
+[14:46:45] [main/TRACE] [mixin/]: Added class metadata for org/spongepowered/common/config/SpongeConfig to metadata cache
+[14:46:45] [main/TRACE] [mixin/]: Added class metadata for org/spongepowered/common/config/type/GlobalConfig to metadata cache
+[14:46:45] [main/TRACE] [mixin/]: Added class metadata for org/spongepowered/common/config/category/GlobalGeneralCategory to metadata cache
+[14:46:45] [main/TRACE] [mixin/]: Added class metadata for org/spongepowered/common/config/category/GeneralCategory to metadata cache
+[14:46:45] [main/TRACE] [mixin/]: Added class metadata for org/spongepowered/common/util/PathTokens to metadata cache
+[14:46:45] [main/TRACE] [mixin/]: Added class metadata for java/io/Serializable to metadata cache
+[14:46:45] [main/TRACE] [mixin/]: Added class metadata for java/lang/Comparable to metadata cache
+[14:46:45] [main/TRACE] [mixin/]: Added class metadata for net/minecraftforge/fml/common/versioning/ArtifactVersion to metadata cache
+[14:46:45] [main/TRACE] [mixin/]: Added class metadata for java/lang/String to metadata cache
+[14:46:45] [main/TRACE] [mixin/]: Added class metadata for net/minecraftforge/fml/common/versioning/DefaultArtifactVersion to metadata cache
+[14:46:45] [main/TRACE] [mixin/]: Added class metadata for net/minecraftforge/fml/common/versioning/VersionRange to metadata cache
+[14:46:45] [main/TRACE] [mixin/]: Added class metadata for org/spongepowered/plugin/meta/version/ComparableVersion to metadata cache
+[14:46:45] [main/TRACE] [mixin/]: Added class metadata for java/math/BigInteger to metadata cache
+[14:46:45] [main/TRACE] [mixin/]: Added class metadata for org/apache/logging/log4j/Logger to metadata cache
+[14:46:45] [main/TRACE] [mixin/]: Added class metadata for net/minecraftforge/fml/common/toposort/ModSorter to metadata cache
+[14:46:45] [main/TRACE] [mixin/]: Added class metadata for net/minecraftforge/fml/common/MissingModsException to metadata cache
+[14:46:45] [main/TRACE] [mixin/]: Added class metadata for com/google/common/collect/UnmodifiableIterator to metadata cache
+[14:46:45] [main/TRACE] [mixin/]: Added class metadata for net/minecraftforge/fml/common/EnhancedRuntimeException to metadata cache
+[14:46:45] [main/TRACE] [mixin/]: Added class metadata for java/lang/RuntimeException to metadata cache
+[14:46:45] [main/TRACE] [mixin/]: Added class metadata for java/lang/Exception to metadata cache
+[14:46:45] [main/TRACE] [mixin/]: Added class metadata for java/lang/Throwable to metadata cache
+[14:46:45] [main/TRACE] [mixin/]: Added class metadata for java/util/List to metadata cache
+[14:46:45] [main/TRACE] [mixin/]: Added class metadata for com/google/common/collect/ImmutableList to metadata cache
+[14:46:45] [main/TRACE] [mixin/]: Added class metadata for com/google/common/collect/ImmutableCollection to metadata cache
+[14:46:45] [main/TRACE] [mixin/]: Added class metadata for java/util/AbstractCollection to metadata cache
+[14:46:45] [main/TRACE] [mixin/]: Added class metadata for java/util/Properties to metadata cache
+[14:46:45] [main/TRACE] [mixin/]: Added class metadata for java/util/Hashtable to metadata cache
+[14:46:45] [main/TRACE] [mixin/]: Added class metadata for java/util/Dictionary to metadata cache
+[14:46:45] [main/DEBUG] [mixin/]: Mixing fml.common.MixinModContainer from mixins.forge.preinit.json into net.minecraftforge.fml.common.ModContainer
+[14:46:45] [main/TRACE] [mixin/]: Added class metadata for com/google/common/base/Strings to metadata cache
+[14:46:45] [main/TRACE] [mixin/]: Added class metadata for com/google/common/base/Preconditions to metadata cache
+[14:46:45] [main/TRACE] [mixin/]: Added class metadata for java/util/Optional to metadata cache
+[14:46:45] [main/TRACE] [mixin/]: Added class metadata for net/minecraftforge/fml/common/ModMetadata to metadata cache
+[14:46:45] [main/TRACE] [mixin/]: Added class metadata for java/util/Collection to metadata cache
+[14:46:45] [main/TRACE] [mixin/]: Added class metadata for java/lang/Iterable to metadata cache
+[14:46:45] [main/TRACE] [mixin/]: Added class metadata for java/util/RandomAccess to metadata cache
+[14:46:45] [main/TRACE] [mixin/]: Added class metadata for org/spongepowered/mod/plugin/DependencyHandler to metadata cache
+[14:46:46] [main/DEBUG] [FML/]: Minecraft validated, launching...
+[14:46:46] [main/INFO] [LaunchWrapper/]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
+[14:46:46] [main/WARN] [LaunchWrapper/]: Tweak class name org.spongepowered.asm.launch.MixinTweaker has already been visited -- skipping
+[14:46:46] [main/INFO] [LaunchWrapper/]: Loading tweak class name org.spongepowered.asm.mixin.MixinEnvironment$EnvironmentStateTweaker
+[14:46:46] [main/INFO] [LaunchWrapper/]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
+[14:46:46] [main/INFO] [LaunchWrapper/]: Calling tweak class org.spongepowered.asm.mixin.MixinEnvironment$EnvironmentStateTweaker
+[14:46:46] [main/DEBUG] [mixin/]: Adding new mixin transformer proxy #2
+[14:46:46] [main/DEBUG] [mixin/]: Ending MixinEnvironment[PREINIT], applied 3 mixins
+[14:46:46] [main/DEBUG] [mixin/]: Preparing mixins for MixinEnvironment[DEFAULT]
+[14:46:46] [main/DEBUG] [mixin/]: Selecting config mixins.common.api.json
+[14:46:46] [main/DEBUG] [mixin/]: Selecting config mixins.common.core.json
+[14:46:46] [main/DEBUG] [mixin/]: Selecting config mixins.common.core.optional.json
+[14:46:46] [main/DEBUG] [mixin/]: Selecting config mixins.common.blockcapturing.json
+[14:46:46] [main/DEBUG] [mixin/]: Selecting config mixins.common.bungeecord.json
+[14:46:46] [main/DEBUG] [mixin/]: Selecting config mixins.common.concurrentchecks.json
+[14:46:46] [main/DEBUG] [mixin/]: Selecting config mixins.common.entityactivation.json
+[14:46:46] [main/DEBUG] [mixin/]: Selecting config mixins.common.entitycollisions.json
+[14:46:46] [main/DEBUG] [mixin/]: Selecting config mixins.common.exploit.json
+[14:46:46] [main/DEBUG] [mixin/]: Selecting config mixins.common.tracking.json
+[14:46:46] [main/DEBUG] [mixin/]: Selecting config mixins.common.optimization.json
+[14:46:47] [main/DEBUG] [mixin/]: Selecting config mixins.common.realtime.json
+[14:46:47] [main/DEBUG] [mixin/]: Selecting config mixins.common.tileentityactivation.json
+[14:46:47] [main/DEBUG] [mixin/]: Selecting config mixins.common.vanilla-command.json
+[14:46:47] [main/DEBUG] [mixin/]: Selecting config mixins.common.multi-world-command.json
+[14:46:47] [main/DEBUG] [mixin/]: Selecting config mixins.forge.core.json
+[14:46:47] [main/DEBUG] [mixin/]: Selecting config mixins.forge.bungeecord.json
+[14:46:47] [main/DEBUG] [mixin/]: Selecting config mixins.forge.entityactivation.json
+[14:46:47] [main/DEBUG] [mixin/]: Selecting config mixins.forgeessentials.json
+[14:46:47] [main/DEBUG] [mixin/]: Preparing mixins.common.api.json (12)
+[14:46:47] [main/DEBUG] [mixin/]: Rebuilding transformer delegation list:
+[14:46:47] [main/DEBUG] [mixin/]:   Adding:    net.minecraftforge.fml.common.asm.transformers.PatchingTransformer
+[14:46:47] [main/DEBUG] [mixin/]:   Excluding: org.spongepowered.asm.mixin.transformer.MixinTransformer$Proxy
+[14:46:47] [main/DEBUG] [mixin/]:   Adding:    $wrapper.net.minecraftforge.fml.common.asm.transformers.BlamingTransformer
+[14:46:47] [main/DEBUG] [mixin/]:   Adding:    $wrapper.net.minecraftforge.fml.common.asm.transformers.SideTransformer
+[14:46:47] [main/DEBUG] [mixin/]:   Excluding: $wrapper.net.minecraftforge.fml.common.asm.transformers.EventSubscriptionTransformer
+[14:46:47] [main/DEBUG] [mixin/]:   Adding:    $wrapper.net.minecraftforge.fml.common.asm.transformers.EventSubscriberTransformer
+[14:46:47] [main/DEBUG] [mixin/]:   Adding:    com.forgeessentials.core.preloader.EventTransformer
+[14:46:47] [main/DEBUG] [mixin/]:   Adding:    $wrapper.org.spongepowered.common.launch.transformer.SpongeSuperclassTransformer
+[14:46:47] [main/DEBUG] [mixin/]:   Adding:    net.minecraftforge.fml.common.asm.transformers.DeobfuscationTransformer
+[14:46:47] [main/DEBUG] [mixin/]:   Adding:    net.minecraftforge.fml.common.asm.transformers.AccessTransformer
+[14:46:47] [main/DEBUG] [mixin/]:   Adding:    org.spongepowered.mod.asm.transformer.SpongeAccessTransformer
+[14:46:47] [main/DEBUG] [mixin/]:   Adding:    net.minecraftforge.fml.common.asm.transformers.ModAccessTransformer
+[14:46:47] [main/DEBUG] [mixin/]:   Adding:    net.minecraftforge.fml.common.asm.transformers.ItemStackTransformer
+[14:46:47] [main/DEBUG] [mixin/]:   Excluding: net.minecraftforge.fml.common.asm.transformers.TerminalTransformer
+[14:46:47] [main/DEBUG] [mixin/]:   Excluding: org.spongepowered.asm.mixin.transformer.MixinTransformer$Proxy
+[14:46:47] [main/DEBUG] [mixin/]: Transformer delegation list created with 11 entries
+[14:46:47] [main/DEBUG] [mixin/]: Found name transformer: net.minecraftforge.fml.common.asm.transformers.DeobfuscationTransformer
+[14:46:47] [main/TRACE] [mixin/]: Added class metadata for org/spongepowered/api/entity/ai/task/AbstractAITask to metadata cache
+[14:46:47] [main/TRACE] [mixin/]: Added class metadata for org/spongepowered/api/data/DataContainer to metadata cache
+[14:46:47] [main/TRACE] [mixin/]: Added class metadata for org/spongepowered/api/event/cause/entity/damage/source/common/AbstractDamageSource to metadata cache
+[14:46:47] [main/TRACE] [mixin/]: Added class metadata for org/spongepowered/api/event/cause/entity/damage/source/common/AbstractEntityDamageSource to metadata cache
+[14:46:47] [main/TRACE] [mixin/]: Added class metadata for org/spongepowered/api/item/merchant/Merchant to metadata cache
+[14:46:47] [main/TRACE] [mixin/]: Added class metadata for org/spongepowered/api/text/Text to metadata cache
+[14:46:47] [main/TRACE] [mixin/]: Added class metadata for org/spongepowered/api/text/LiteralText to metadata cache
+[14:46:47] [main/TRACE] [mixin/]: Added class metadata for org/spongepowered/api/text/ScoreText to metadata cache
+[14:46:47] [main/TRACE] [mixin/]: Added class metadata for org/spongepowered/api/text/SelectorText to metadata cache
+[14:46:47] [main/TRACE] [mixin/]: Added class metadata for org/spongepowered/api/text/TranslatableText to metadata cache
+[14:46:47] [main/TRACE] [mixin/]: Added class metadata for org/spongepowered/api/text/title/Title to metadata cache
+[14:46:47] [main/TRACE] [mixin/]: Added class metadata for org/spongepowered/api/world/Location to metadata cache
+[14:46:47] [main/DEBUG] [mixin/]: Preparing mixins.common.core.json (513)
+[14:46:47] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/init/Bootstrap$10 to metadata cache
+[14:46:47] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/init/Bootstrap$11 to metadata cache
+[14:46:47] [main/TRACE] [mixin/]: Added class metadata for com/mojang/authlib/GameProfile to metadata cache
+[14:46:47] [main/TRACE] [mixin/]: Added class metadata for com/mojang/authlib/properties/Property to metadata cache
+[14:46:47] [main/TRACE] [mixin/]: Added class metadata for com/mojang/authlib/properties/PropertyMap to metadata cache
+[14:46:47] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/server/management/UserListEntryBan to metadata cache
+[14:46:47] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/server/management/UserListIPBansEntry to metadata cache
+[14:46:47] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/server/management/UserListBansEntry to metadata cache
+[14:46:47] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/dispenser/BehaviorProjectileDispense to metadata cache
+[14:46:47] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/block/Block to metadata cache
+[14:46:47] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/block/BlockAnvil to metadata cache
+[14:46:47] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/block/BlockBanner to metadata cache
+[14:46:47] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/block/BlockBanner$BlockBannerHanging to metadata cache
+[14:46:47] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/block/BlockBanner$BlockBannerStanding to metadata cache
+[14:46:47] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/block/BlockBed to metadata cache
+[14:46:47] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/block/BlockButton to metadata cache
+[14:46:47] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/block/BlockCactus to metadata cache
+[14:46:47] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/block/BlockCake to metadata cache
+[14:46:47] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/block/BlockCarpet to metadata cache
+[14:46:47] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/block/BlockChest to metadata cache
+[14:46:47] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/block/BlockCocoa to metadata cache
+[14:46:47] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/block/BlockColored to metadata cache
+[14:46:47] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/block/BlockCommandBlock to metadata cache
+[14:46:47] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/block/BlockCrops to metadata cache
+[14:46:47] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/block/BlockDaylightDetector to metadata cache
+[14:46:47] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/block/BlockDirectional to metadata cache
+[14:46:47] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/block/BlockDirt to metadata cache
+[14:46:47] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/block/BlockDispenser to metadata cache
+[14:46:47] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/block/BlockDoor to metadata cache
+[14:46:47] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/block/BlockDoublePlant to metadata cache
+[14:46:47] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/block/BlockDoubleStoneSlabNew to metadata cache
+[14:46:47] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/block/BlockDoubleStoneSlab to metadata cache
+[14:46:47] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/block/BlockDoubleWoodSlab to metadata cache
+[14:46:47] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/block/BlockDynamicLiquid to metadata cache
+[14:46:47] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/block/BlockEnderChest to metadata cache
+[14:46:47] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/block/BlockEndPortalFrame to metadata cache
+[14:46:47] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/block/BlockEventData to metadata cache
+[14:46:47] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/block/BlockFalling to metadata cache
+[14:46:47] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/block/BlockFarmland to metadata cache
+[14:46:47] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/block/BlockFence to metadata cache
+[14:46:47] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/block/BlockFenceGate to metadata cache
+[14:46:47] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/block/BlockFire to metadata cache
+[14:46:47] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/block/BlockFlower to metadata cache
+[14:46:47] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/block/BlockFurnace to metadata cache
+[14:46:47] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/block/BlockGrass to metadata cache
+[14:46:47] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/block/BlockHay to metadata cache
+[14:46:47] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/block/BlockHopper to metadata cache
+[14:46:47] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/block/BlockHugeMushroom to metadata cache
+[14:46:47] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/block/BlockLadder to metadata cache
+[14:46:47] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/block/BlockLeaves to metadata cache
+[14:46:47] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/block/BlockLever to metadata cache
+[14:46:47] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/block/BlockLog to metadata cache
+[14:46:47] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/block/BlockMagma to metadata cache
+[14:46:47] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/block/BlockMycelium to metadata cache
+[14:46:47] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/block/BlockNetherWart to metadata cache
+[14:46:47] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/block/BlockPane to metadata cache
+[14:46:47] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/block/BlockPistonBase to metadata cache
+[14:46:47] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/block/BlockPistonExtension to metadata cache
+[14:46:47] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/block/BlockPistonMoving to metadata cache
+[14:46:47] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/block/BlockPlanks to metadata cache
+[14:46:47] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/block/BlockPortal to metadata cache
+[14:46:47] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/block/BlockPressurePlate to metadata cache
+[14:46:48] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/block/BlockPressurePlateWeighted to metadata cache
+[14:46:48] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/block/BlockPrismarine to metadata cache
+[14:46:48] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/block/BlockPumpkin to metadata cache
+[14:46:48] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/block/BlockQuartz to metadata cache
+[14:46:48] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/block/BlockRailBase to metadata cache
+[14:46:48] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/block/BlockRailDetector to metadata cache
+[14:46:48] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/block/BlockRailPowered to metadata cache
+[14:46:48] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/block/BlockRedSandstone to metadata cache
+[14:46:48] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/block/BlockRedstoneComparator to metadata cache
+[14:46:48] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/block/BlockRedstoneDiode to metadata cache
+[14:46:48] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/block/BlockRedstoneRepeater to metadata cache
+[14:46:48] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/block/BlockRedstoneWire to metadata cache
+[14:46:48] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/block/BlockReed to metadata cache
+[14:46:48] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/block/BlockSand to metadata cache
+[14:46:48] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/block/BlockSandStone to metadata cache
+[14:46:48] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/block/BlockSapling to metadata cache
+[14:46:48] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/block/BlockSign to metadata cache
+[14:46:48] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/block/BlockSilverfish to metadata cache
+[14:46:48] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/block/BlockSkull to metadata cache
+[14:46:48] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/block/BlockSnow to metadata cache
+[14:46:48] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/block/BlockSponge to metadata cache
+[14:46:48] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/block/BlockStainedGlass to metadata cache
+[14:46:48] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/block/BlockStainedGlassPane to metadata cache
+[14:46:48] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/block/BlockStairs to metadata cache
+[14:46:48] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/block/BlockStandingSign to metadata cache
+[14:46:48] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/block/BlockStem to metadata cache
+[14:46:48] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/block/BlockStone to metadata cache
+[14:46:48] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/block/BlockStoneBrick to metadata cache
+[14:46:48] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/block/BlockStoneSlabNew to metadata cache
+[14:46:48] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/block/BlockStoneSlab to metadata cache
+[14:46:48] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/block/BlockTallGrass to metadata cache
+[14:46:48] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/block/BlockTNT to metadata cache
+[14:46:48] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/block/BlockTorch to metadata cache
+[14:46:48] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/block/BlockTrapDoor to metadata cache
+[14:46:48] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/block/BlockTripWire to metadata cache
+[14:46:48] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/block/BlockTripWireHook to metadata cache
+[14:46:48] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/block/BlockVine to metadata cache
+[14:46:48] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/block/BlockWall to metadata cache
+[14:46:48] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/block/BlockWallSign to metadata cache
+[14:46:48] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/block/BlockWoodSlab to metadata cache
+[14:46:48] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/block/SoundType to metadata cache
+[14:46:48] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/block/properties/IProperty to metadata cache
+[14:46:48] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/block/properties/PropertyBool to metadata cache
+[14:46:48] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/block/properties/PropertyEnum to metadata cache
+[14:46:48] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/block/properties/PropertyHelper to metadata cache
+[14:46:48] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/block/properties/PropertyInteger to metadata cache
+[14:46:48] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/block/state/IBlockState to metadata cache
+[14:46:48] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/block/state/BlockStateContainer$StateImplementation to metadata cache
+[14:46:48] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/tileentity/TileEntityCommandBlock$1 to metadata cache
+[14:46:48] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/command/CommandBase to metadata cache
+[14:46:48] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/tileentity/TileEntityCommandBlock to metadata cache
+[14:46:48] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/entity/item/EntityMinecartCommandBlock to metadata cache
+[14:46:48] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/tileentity/TileEntitySign$1 to metadata cache
+[14:46:48] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/command/CommandHandler to metadata cache
+[14:46:48] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/command/server/CommandScoreboard to metadata cache
+[14:46:48] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/entity/player/EntityPlayerMP to metadata cache
+[14:46:48] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/server/MinecraftServer to metadata cache
+[14:46:48] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/network/rcon/RConConsoleSource to metadata cache
+[14:46:48] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/tileentity/CommandBlockBaseLogic to metadata cache
+[14:46:48] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/entity/item/EntityMinecartCommandBlock$1 to metadata cache
+[14:46:48] [main/TRACE] [mixin/]: Added class metadata for org/spongepowered/common/entity/player/SpongeUser to metadata cache
+[14:46:48] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/command/EntitySelector to metadata cache
+[14:46:48] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/command/EntitySelector$7 to metadata cache
+[14:46:48] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/command/server/CommandBanIp to metadata cache
+[14:46:48] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/command/server/CommandPardonIp to metadata cache
+[14:46:48] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/command/ServerCommandManager to metadata cache
+[14:46:48] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/command/server/CommandSummon to metadata cache
+[14:46:48] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/command/server/CommandTeleport to metadata cache
+[14:46:48] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/command/CommandTP to metadata cache
+[14:46:48] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/tileentity/TileEntity to metadata cache
+[14:46:48] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/entity/Entity to metadata cache
+[14:46:49] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/item/ItemStack to metadata cache
+[14:46:49] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/entity/item/EntityPainting$EnumArt to metadata cache
+[14:46:49] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/block/BlockDirt$DirtType to metadata cache
+[14:46:49] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/block/BlockDoor$EnumHingePosition to metadata cache
+[14:46:49] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/block/BlockDoublePlant$EnumPlantType to metadata cache
+[14:46:49] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/block/BlockFlower$EnumFlowerType to metadata cache
+[14:46:49] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/block/BlockHugeMushroom$EnumType to metadata cache
+[14:46:49] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/block/BlockPistonExtension$EnumPistonType to metadata cache
+[14:46:49] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/block/BlockPlanks$EnumType to metadata cache
+[14:46:49] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/block/BlockPrismarine$EnumType to metadata cache
+[14:46:49] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/block/BlockQuartz$EnumType to metadata cache
+[14:46:49] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/block/BlockRailBase$EnumRailDirection to metadata cache
+[14:46:49] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/block/BlockRedstoneComparator$Mode to metadata cache
+[14:46:49] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/block/BlockSand$EnumType to metadata cache
+[14:46:49] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/block/BlockSandStone$EnumType to metadata cache
+[14:46:49] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/block/BlockSilverfish$EnumType to metadata cache
+[14:46:49] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/block/BlockSlab$EnumBlockHalf to metadata cache
+[14:46:49] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/block/BlockStairs$EnumShape to metadata cache
+[14:46:49] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/block/BlockStoneBrick$EnumType to metadata cache
+[14:46:49] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/block/BlockStone$EnumType to metadata cache
+[14:46:49] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/block/BlockStoneSlab$EnumType to metadata cache
+[14:46:49] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/block/BlockStoneSlabNew$EnumType to metadata cache
+[14:46:49] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/block/BlockTallGrass$EnumType to metadata cache
+[14:46:49] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/block/BlockWall$EnumType to metadata cache
+[14:46:49] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/world/BossInfo$Color to metadata cache
+[14:46:49] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/world/BossInfo$Overlay to metadata cache
+[14:46:49] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/entity/projectile/EntityArrow$PickupStatus to metadata cache
+[14:46:49] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/tileentity/BannerPattern to metadata cache
+[14:46:49] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/entity/player/EntityPlayer$EnumChatVisibility to metadata cache
+[14:46:49] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/world/EnumDifficulty to metadata cache
+[14:46:49] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/item/EnumDyeColor to metadata cache
+[14:46:49] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/block/BlockLog$EnumAxis to metadata cache
+[14:46:49] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/item/ItemFishFood$FishType to metadata cache
+[14:46:49] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/world/GameType to metadata cache
+[14:46:49] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/entity/EntityAreaEffectCloud to metadata cache
+[14:46:49] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/entity/item/EntityArmorStand to metadata cache
+[14:46:49] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/entity/monster/EntityGiantZombie to metadata cache
+[14:46:49] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/entity/monster/EntitySkeleton to metadata cache
+[14:46:49] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/entity/monster/EntityZombie to metadata cache
+[14:46:49] [main/TRACE] [mixin/]: Added class metadata for org/spongepowered/common/entity/living/human/EntityHuman to metadata cache
+[14:46:49] [main/INFO] [ASM_MethodInjector/]: Injecting MixinEntity.attackEntityFrom_event into MixinEntity.func_70097_a at HEAD
+[14:46:49] [main/INFO] [mixin/]: Instancing error handler class org.spongepowered.mod.mixin.handler.MixinErrorHandler
+[14:46:49] [main/INFO] [Sponge/]: /************************************************************************************************************************************************************************************************************************************************************************************************************/
+[14:46:49] [main/INFO] [Sponge/]: /*                                                                                                                                                                                                                                                                                                          */
+[14:46:49] [main/INFO] [Sponge/]: /* Oh dear. It seems like this version of Sponge is not compatible with the version                                                                                                                                                                                                                         */
+[14:46:49] [main/INFO] [Sponge/]: /* of Forge you are running.                                                                                                                                                                                                                                                                                */
+[14:46:49] [main/INFO] [Sponge/]: /*                                                                                                                                                                                                                                                                                                          */
+[14:46:49] [main/INFO] [Sponge/]: /*----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+[14:46:49] [main/INFO] [Sponge/]: /*                                                                                                                                                                                                                                                                                                          */
+[14:46:49] [main/INFO] [Sponge/]: /* A errpr was encountered whilst patching:                                                                                                                                                                                                                                                                 */
+[14:46:49] [main/INFO] [Sponge/]: /*                                                                                                                                                                                                                                                                                                          */
+[14:46:49] [main/INFO] [Sponge/]: /*   One or more Sponge patches could not be applied whilst loading Sponge, this is                                                                                                                                                                                                                         */
+[14:46:49] [main/INFO] [Sponge/]: /*   a permanent error and you must either:                                                                                                                                                                                                                                                                 */
+[14:46:49] [main/INFO] [Sponge/]: /*                                                                                                                                                                                                                                                                                                          */
+[14:46:49] [main/INFO] [Sponge/]: /*    * Use the correct build of Forge for this version of Sponge (14.21.0.2331)                                                                                                                                                                                                                            */
+[14:46:49] [main/INFO] [Sponge/]: /*                                                                                                                                                                                                                                                                                                          */
+[14:46:49] [main/INFO] [Sponge/]: /*    * Use a version of Sponge for built for your version of Forge                                                                                                                                                                                                                                         */
+[14:46:49] [main/INFO] [Sponge/]: /*                                                                                                                                                                                                                                                                                                          */
+[14:46:49] [main/INFO] [Sponge/]: /*   The patch which failed requires Forge build: 14.21.0.2331                                                                                                                                                                                                                                              */
+[14:46:49] [main/INFO] [Sponge/]: /*   but you are running build:                   14.21.0.2322                                                                                                                                                                                                                                              */
+[14:46:49] [main/INFO] [Sponge/]: /*                                                                                                                                                                                                                                                                                                          */
+[14:46:49] [main/INFO] [Sponge/]: /*----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+[14:46:49] [main/INFO] [Sponge/]: /*                                                                                                                                                                                                                                                                                                          */
+[14:46:49] [main/INFO] [Sponge/]: /* Technical details:                                                                                                                                                                                                                                                                                       */
+[14:46:49] [main/INFO] [Sponge/]: /*                                                                                                                                                                                                                                                                                                          */
+[14:46:49] [main/INFO] [Sponge/]: /*      Failed on class : N/A                                                                                                                                                                                                                                                                               */
+[14:46:49] [main/INFO] [Sponge/]: /*         During phase : DEFAULT                                                                                                                                                                                                                                                                           */
+[14:46:49] [main/INFO] [Sponge/]: /*                Mixin : entity.MixinEntity                                                                                                                                                                                                                                                                */
+[14:46:49] [main/INFO] [Sponge/]: /*               Config : mixins.common.core.json                                                                                                                                                                                                                                                           */
+[14:46:49] [main/INFO] [Sponge/]: /*           Error Type : org.spongepowered.asm.mixin.transformer.throwables.InvalidMixinException                                                                                                                                                                                                          */
+[14:46:49] [main/INFO] [Sponge/]: /*            Caused by : com.forgeessentials.core.preloader.asminjector.MethodInjector$MethodInjectionError                                                                                                                                                                                                */
+[14:46:49] [main/INFO] [Sponge/]: /*              Message : com.forgeessentials.core.preloader.asminjector.MethodInjector$MethodInjectionError: Error injecting com.forgeessentials.core.preloader.injections.MixinEntity.attackEntityFrom_event(MixinEntity.java:0) into org.spongepowered.common.mixin.core.entity.MixinEntity.func_70097_a */
+[14:46:49] [main/INFO] [Sponge/]: /*                                                                                                                                                                                                                                                                                                          */
+[14:46:49] [main/INFO] [Sponge/]: /************************************************************************************************************************************************************************************************************************************************************************************************************/
+[14:46:49] [main/INFO] [Sponge/]: Attempting to shut down the VM cleanly
+[14:46:49] [main/INFO] [FML/]: Java has been asked to exit (code -1) by net.minecraftforge.fml.common.FMLCommonHandler.exitJava(FMLCommonHandler.java:661).
+[14:46:49] [main/INFO] [FML/]: This is an abortive exit and could cause world corruption or other things
+[14:46:49] [main/INFO] [FML/]: If this was an unexpected exit, use -Dfml.debugExit=true as a JVM argument to find out where it was called

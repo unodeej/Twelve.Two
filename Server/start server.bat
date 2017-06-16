@@ -1,1 +1,0 @@
-java -jar spongevanilla-1.12-7.0.0-BETA-285.jar
